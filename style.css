@@ -1,0 +1,286 @@
+/* write your styles here */
+*{
+    margin: 0;
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center;
+   }
+#d1{
+  margin-top: 20px;
+  background-color: #316DC3 !important;
+width: 90%;
+margin-left: 5%;
+height: 40px;
+border-bottom-style: solid;
+border-bottom-color: white;
+}
+.intro {
+
+    margin: auto;
+    width: 80%;
+   
+  
+}
+img.slider {
+  width: 100%;
+}
+marquee{
+    margin-top: 10px;
+}
+#logo{
+  margin-top:0.5em;
+  margin-left: 2em;
+    width: 200px;
+    height: 40px;
+}
+p{
+text-align: justify;
+line-height: 1.9;
+  color:#868686;
+  padding:1em; 
+  font-weight: bold;
+font-size: 14px;
+  visibility: visible;
+  font-family: 'Open Sans', sans-serif;
+}
+.col-sm-5.projects {
+  display: inline-flex;
+  background: #f7f8fa;
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+a.projects-link {
+  margin-right: 0px 20px;
+  margin: 0px 20px;
+}
+h1{
+  margin-top: 1em;
+  font-size: 4em;
+  font-family: 'Anton', sans-serif;
+}
+#introduction{
+  background-color: #f7f8fa;
+  padding-bottom: 5rem;
+}
+#main_nav{
+    background:#f7f8fa !important;
+    display: flex;
+   justify-content: space-between;
+}
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #316dc3;
+}
+
+.nav-pills .nav-link {
+    border-radius: 1rem;
+}
+  nav{
+    
+      margin-top: 10px;
+  }
+  span.span-mark {
+  
+      font-weight: bold;
+      color: rgb(0, 255, 0);
+      background-color: none;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+ 
+  section{ 
+    display: block;
+      height: auto;
+      width: auto;
+      
+  }
+  p#uper-para ,h2.intro-box ,h5.intro-box ,p.fot {
+    color: #ffffff;
+}
+svg.svg-inline--fa.fa-w-14.icon_nav ,svg.svg-inline--fa.fa-w-18.icon_nav ,svg.svg-inline--fa.fa-twitter.fa-w-16.icon_nav{
+  margin: 10px;
+}
+uper-para{
+  text-align: center;
+}
+h5.intro-box{
+  font-weight: bold;
+}
+ 
+span.monthly {
+  color: #76ed1c;
+  font-weight: bold;
+}
+  @media only screen and (max-width: 600px) {
+  
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .uperNav {
+      display: inline-block;
+  
+  }
+    nav{
+         background-image: url(mockups/Menu_48px.png) ;
+        margin-right: 5%;
+        width: 40px;
+        height: 50px;
+   
+        }
+     nav ul{
+          display: none;
+      }
+}
+button{
+  color: #F18D97;
+  border: #000;
+ padding: 1em 2em; 
+  background-color: #000;
+font-size: 25px;
+font-family: cursive;
+margin-top: 1em;
+}
+button:hover{
+  background: rgba(0, 0, 0, 0.83);
+}
+.services {
+  margin-top: 0;
+  height: auto;
+  background-color:#244ff2;
+  padding-bottom: 2em;
+}
+.parag
+{  border-top: 1px solid #000; 
+  border-bottom: 1px solid #000;  
+}
+img.gallery.img-fullwidth {
+  height: 150px;
+}
+#portfolio {
+  margin-top: 0;
+  height: auto;
+  background: url(mockups/floral.png);
+  background-color: #D6C6AC;
+}
+ #contact {
+  
+   display:grid;
+   justify-content: center;
+   height: auto;
+  background: url(mockups/floral.png);
+  background-color: #AFC7C7 ;
+   
+}
+h5{
+  font-family: 'Merriweather', serif;
+  color: #316dc3;
+}
+.cards {
+  box-shadow: 10px 10px 10px 10px #e5e6e8;
+  background: #ffffff;
+  height: 200px;
+  box-shadow: pink;
+  width: 350px;
+  margin: 10px;
+  display: inline-block;
+}
+.we-doing{
+  background-color: #f7f8fa;
+}
+footer {
+  display: flex;
+  background-color: #316cd9;
+  color: white;
+  justify-content: space-around;
+}
+span.footr {
+  padding-top: 12px;
+}
+img.doings {
+  width: 70px;
+  margin: 2rem;
+}
+.btns {
+  padding: 10px;
+}
+.heading{
+  color: #316DC3;
+  font-family: 'Merriweather', serif;
+}
+h2{
+  color: #427900;
+  font-family: 'Merriweather', serif;
+padding-top: 1em;
+
+}
+.icons {
+  padding: 10px;
+}
+img.internationalIcons {
+  height: 40px;
+  margin: 2rem;
+}
+.icons .svg-inline--fa:hover{
+  border-style: solid#316cd9;
+   background-color: #316cd9;;
+  border-radius: 10px;
+  }
+  svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
+    background: #65bc53;
+    border: solid #65bc53;
+    border-radius: 5px;
+    padding: 0px;
+}
+input[type="submit"] {
+  background: #f5f5f5;
+  color: #749940;
+  padding: 5px;
+  border: none;
+}
+img.favicon {
+  width: 40px;
+}
+span#leftLine ,span#rightLine{
+  /* width: 10px; */
+  color: #427900;
+  font-size: 14px;
+  font-weight: 2rem;
+}
+footer .svg-inline--fa {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 1.5em;
+}
+footer:hover .svg-inline--fa{
+  color: red;
+
+}
+.uperNav {
+  color: #f7f8fa;
+  background-color:#316DC3;
+}
+.conatiner{
+   
+  padding: 20px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.conatiner .box{
+  width: 290px;
+  height: 280px;
+  margin: 10px;
+  display: inline-block;
+}
+
